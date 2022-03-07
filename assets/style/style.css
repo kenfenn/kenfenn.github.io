@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
 
 :root {
-	--col-text: #595758;
-	--col-bg1: #FFEEF2;
-	--col-bg2: #FFE4F3;
-	--col-bg3: #FFC8FB;
-	--col-bg4: #FF92C2;
+	--col-text: #000000;
+	--col-bg1: #FFFFFF;
+	--col-bg2: #FFC1D3;
+	--col-bg3: #FEA6BD;
+	--col-bg4: #FC8AA8;
+	--col-bg-light: #595758;
+	--col-bg-dark: #000000;
 
 	--sans: 'Raleway', sans-serif;
 
