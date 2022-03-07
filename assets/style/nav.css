@@ -82,7 +82,8 @@ li.nav-item a.button {
     left: 100%;
 
     width: 100%;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     z-index: 9; 
 
