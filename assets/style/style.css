@@ -17,14 +17,6 @@
 	--black: 800;
 }
 
-* {
-    font-family: var(--sans);
-
-    scroll-behavior: smooth;
-
-    color: var(--col-text);
-}
-
 h1, h2 {
 	font-weight: var(--bold);
 }
@@ -35,6 +27,16 @@ p {
 
 main {
 	background-color: var(--col-bg1);
+	overflow-y: auto;
+}
+
+* {
+    font-family: var(--sans);
+
+    scroll-behavior: smooth;
+
+    color: var(--black);
+	overflow-x: hidden;
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -43,13 +45,8 @@ main {
 	}
 }
 
-html {
+.no-scroll {
 	overflow: hidden;
-}
-
-body {
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .left {
