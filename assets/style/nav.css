@@ -96,7 +96,7 @@ li.nav-item a.button {
 }
 
 #nav-toggle:checked ~ .nav-list-collapse {
-    left: 0;
+    left: -3px;
 }
 
 div.nav-brand {
