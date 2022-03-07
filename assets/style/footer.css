@@ -1,10 +1,5 @@
-footer {
-    width: 100%;
+p.footer-text {
     padding: 15px 50px;
-
     border-top: 1px solid var(--black);
-}
-
-footer p {
     font-family: var(--sans-condensed);
 }
