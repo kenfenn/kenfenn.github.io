@@ -116,6 +116,10 @@ a.button-i i {
     position: relative;
 
     cursor: pointer;
+
+    background-color: gray;
+
+    overflow: hidden;
 }
 
 @media (orientation: landscape) and (min-width: 570px) {
