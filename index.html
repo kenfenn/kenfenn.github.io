@@ -34,10 +34,10 @@
         <div class="nav-list-collapse m0 p0 center-flex">
             <ul class="nav-list m0 p0">
                 <li class="nav-item">
-                    <a href="#essays" class="button">Essays</a>
+                    <a href="#essays" class="button" onclick="deactivateCheckboxes()">Essays</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="button">Contact</a>
+                    <a href="#contact" class="button" onclick="deactivateCheckboxes()">Contact</a>
                 </li>
                 <li class="nav-item" style="margin:15px">
                     Uses the Raleway family of fonts from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.
@@ -96,5 +96,16 @@
             &copy; <a href="https://michaelg29.github.io/" target="_blank">Michael Grieco</a>, 2022-2022.
         </p>
     </main>
+
+    <script>
+        function deactivateCheckboxes() {
+            var checkedBoxes = document.querySelectorAll("input.toggle-wrapper-toggle:checked");
+            checkedBoxes.forEach((checkbox) => {
+                checkbox.checked = false;
+            });
+
+            document.querySelector("input#nav-toggle").checked = false;
+        }
+    </script>
 </body>
 </html>
