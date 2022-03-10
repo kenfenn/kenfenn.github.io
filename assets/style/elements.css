@@ -117,7 +117,7 @@ a.button-i i {
 
     cursor: pointer;
 
-    background-color: gray;
+    background-color: var(--col-bg1);
 
     overflow: hidden;
 }

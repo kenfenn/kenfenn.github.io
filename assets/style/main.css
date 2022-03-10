@@ -5,3 +5,8 @@ section {
 h1.section-title {
     font-size: 64px;
 }
+
+/*==============TILE BACKGROUNDS===============*/
+#test {
+    background-color: var(--col-bg2);
+}
