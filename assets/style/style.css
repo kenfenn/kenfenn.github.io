@@ -8,6 +8,7 @@
 	--col-bg4: #FC8AA8;
 	--col-bg-light: #595758;
 	--col-bg-dark: #000000;
+	--col-bg-transparent: rgba(89, 87, 88, 0.5);
 
 	--sans: 'Raleway', sans-serif;
 
@@ -15,6 +16,8 @@
 	--normal: 500;
 	--bold: 700;
 	--black: 800;
+
+	--nav-height: 63px;
 }
 
 h1, h2 {
