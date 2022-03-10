@@ -120,6 +120,8 @@ a.button-i i {
     background-color: var(--col-bg1);
 
     overflow: hidden;
+
+    transition: 500ms ease-in-out;
 }
 
 @media (orientation: landscape) and (min-width: 570px) {
@@ -129,10 +131,10 @@ a.button-i i {
     }
 }
 
-.flex-tile .hover-desc {
+.flex-tile .tile-desc {
     position: absolute;
     bottom: 0;
-    left: 100%;
+    left: 0;
 
     width: calc(100% - 30px);
     margin: 0;
@@ -140,14 +142,6 @@ a.button-i i {
 
     text-align: center;
     font-size: 24px;
-
-    transition: 500ms ease-in-out;
-
-    background-color: var(--col-bg3);
-}
-
-.flex-tile:hover .hover-desc {
-    left: 0;
 }
 
 .toggle-wrapper {
