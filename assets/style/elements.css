@@ -131,6 +131,92 @@ a.button-i i {
 
 .flex-tile .hover-desc {
     position: absolute;
+    bottom: 0;
+    left: 100%;
+
+    width: calc(100% - 30px);
+    margin: 0;
+    padding: 15px;
+
+    text-align: center;
+    font-size: 24px;
+
+    transition: 500ms ease-in-out;
+
+    background-color: var(--col-bg3);
+}
+
+.flex-tile:hover .hover-desc {
+    left: 0;
+}
+
+.toggle-wrapper {
+    position: absolute;
+    top: var(--nav-height);
+    left: 100%;
+
+    width: calc(100% + 100px);
+    height: calc(100% - var(--nav-height));
+    overflow: hidden;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+
+    background-color: var(--col-bg-transparent);
+
+    z-index: 8;
+
+    transition: 500ms ease-in-out;
+}
+
+.toggle-wrapper-toggle:checked + .toggle-wrapper {
+    left: -50px;
+}
+
+.toggle-content {
+    position: relative;
+
+    margin: 45px;
+    padding: 0;
+
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    width: calc(100% - 90px - 100px);
+    height: calc(100% - 90px);
+}
+
+.toggle-content-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 60px;
+    width: 60px;
+
+    cursor: pointer;
+}
+
+.toggle-content-toggle:hover {
+    background-color: var(--col-bg4);
+}
+
+.toggle-content-toggle span {
+    position: absolute; 
+    height: 6px;
+    width: 34px;
+
+    top: calc((60px - 6px) / 2);
+    right: calc((60px - 34px) / 2);
+
+    background-color: black;
+}
+
+/*
+.flex-tile .hover-desc {
+    position: absolute;
     bottom: -100%;
     left: 0;
 
@@ -255,7 +341,7 @@ p.checked-content-title {
     text-decoration: none;
     font-weight: bold;
     font-family: var(--sans);
-}
+} */
 
 /*====================== content section ============================ */
 .section h1 {
