@@ -60,54 +60,6 @@ a.button-i i {
     padding-bottom: 30px;
 }
 
-/* ======================================== CARD =====================================*/
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    transition: 500ms ease-in-out;
-
-    padding: 15px;
-    width: calc(100% - 30px);
-}
-
-.card:hover {
-    transform: translate(-1px, -2px);
-    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.5);
-    background-color: var(--light-bg);
-}
-
-.card-text {
-    text-align: center;
-}
-
-.card-link {
-    font-size: 64px;
-    transition: 500ms;
-}
-
-.card-link:hover {
-    color: var(--primary);
-}
-
-.card-title {
-    font-size: 36px;
-    font-weight: bold;
-    font-family: var(--sans-condensed);
-}
-
-.card-desc, .card-desc * {
-    font-size: 24px;
-    font-family: var(--sans-condensed);
-}
-
-.card-desc a {
-    text-decoration: none;
-    font-weight: bold;
-}
-
 /* ==================================== FLEX_TILE ====================================== */
 .flex-tile {
     width: 100%;
