@@ -134,3 +134,16 @@ a.nav-brand {
         padding: calc((var(--nav-height) - 32px) / 2) 30px;
     }
 }
+
+a#email-toggle {
+    cursor: pointer;
+}
+
+a#email-toggle:hover + #email-txt {
+    display: inherit;
+}
+
+#email-txt {
+    display: none;
+}
+
