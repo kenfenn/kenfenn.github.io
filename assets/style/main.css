@@ -13,3 +13,10 @@ h1.section-title {
 #test:hover {
     background-color: var(--col-bg3);
 }
+
+#test2 {
+    background-color: var(--col-bg3);
+}
+#test2:hover {
+    background-color: var(--col-bg4);
+}
