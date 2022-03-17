@@ -28,6 +28,10 @@ p {
 	font-weight: 500;
 }
 
+body {
+	position: fixed;
+}
+
 main {
 	background-color: var(--col-bg1);
 	overflow-y: auto;
