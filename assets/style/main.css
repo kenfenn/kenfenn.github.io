@@ -7,10 +7,10 @@ h1.section-title {
 }
 
 /*==============TILE BACKGROUNDS===============*/
-#test {
+.flex-tile {
     background-color: var(--col-bg2);
 }
-#test:hover {
+.flex-tile:hover {
     background-color: var(--col-bg3);
 }
 
