@@ -173,7 +173,7 @@ p.checked-content-title {
 
 .checked-content-desc {
     overflow-y: auto;
-    height: calc(100% - 50px - 93px);
+    max-height: calc(100% - 50px - 93px);
 
     padding: 0px 50px 50px 50px;
 
