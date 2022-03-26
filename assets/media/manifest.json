@@ -1,24 +1,38 @@
 {
+    "courses": {
+        "CLAS 201": "Greece and Rome",
+        "INTD 200": "Introduction to Development",
+        "INTD 397": "03- Topics of International Development: Conflict and Development ",
+        "POLI 227": "Developing Areas/Introduction",
+        "POLI 356": "International Policy/Foreign Policy of Africa",
+        "HIST 200": "Intro to African History",
+        "HIST 304": "International Relations 2: The Cold War",
+        "HIST 315": "Themes in World History: British Empire",
+        "HIST 382": "History of South Africa",
+        "HIST 389": "Topics: African Country Survey; the Democratic Republic of Congo",
+        "HIST 392": "US History Since 1965"
+
+    },
     "research-papers": [
         {
             "id": "gd",
             "short-title": "Gendered Discrimination",
             "title": "Gendered Discrimination Against Women and the Failings of Empowerment.",
-            "class": "INTD 200",
+            "course": "INTD 200",
             "description": ""
         },
         {
             "id": "rcw",
             "short-title": "Realism and Civil Wars in Africa",
             "title": "Realism and Civil Wars in Africa",
-            "class": "POLI 352",
+            "course": "POLI 352",
             "description": ""
         },
         {
             "id": "div",
             "short-title": "Divergening Outcomes",
             "title": "Divergening Outcomes",
-            "class": "POLI 227",
+            "course": "POLI 227",
             "description": ""
         }
     ],
@@ -27,56 +41,56 @@
             "id": "mvw",
             "short-title": "Medusa and Villianizing Women",
             "title": "Medusa and Villianizing Women",
-            "class": "CLAS 201",
+            "course": "CLAS 201",
             "description": ""
         },
         {
             "id": "cdg",
             "short-title": "Conflict and Development",
             "title": "Is Conflict Always Bad? Is Development Always Good?",
-            "class": "INTD 397",
+            "course": "INTD 397",
             "description": ""
         },
         {
             "id": "cwg",
             "short-title": "Cold War as a Global Conflict",
             "title": "Cold War as a Global Conflict",
-            "class": "HIST 304",
+            "course": "HIST 304",
             "description": ""
         },
         {
             "id": "vnp",
             "short-title": "Vietnam as a Proxy War",
             "title": "Vietnam as a Proxy War",
-            "class": "HIST 304",
+            "course": "HIST 304",
             "description": ""
         },
         {
             "id": "idr",
             "short-title": "Dimensions of the Rwandan Genocide",
             "title": "International Dimensions of the Rwandan Genocide",
-            "class": "POLI 352",
+            "course": "POLI 352",
             "description": ""
         },
         {
             "id": "isl",
             "short-title": "Islamist Militant Movements in sub-Saharan Africa",
             "title": "Islamist Militant Movements in sub-Saharan Africa",
-            "class": "POLI 352",
+            "course": "POLI 352",
             "description": ""
         },
         {
             "id": "pcb",
             "short-title": "Protest Culture, Conservative Backlash",
             "title": "Protest Culture, and Conservative Backlash",
-            "class": "HIST 392",
+            "course": "HIST 392",
             "description": ""
         },
         {
             "id": "tta",
             "short-title": "Trade and Technology in Ancient Africa",
             "title": "Trade and Technology in Ancient Africa",
-            "class": "HIST 200",
+            "course": "HIST 200",
             "description": ""
         }
     ],
@@ -85,28 +99,28 @@
             "id": "cml",
             "short-title": "Cetshwayo Mpande's Letter",
             "title": "Cetshwayo Mpande's Letter",
-            "class": "HIST 304",
+            "course": "HIST 304",
             "description": ""
         },
         {
             "id": "nix",
             "short-title": "Newspapers Covering Nixon in China",
             "title": "President Nixon's Trip to China, and Detente",
-            "class": "HIST 304",
+            "course": "HIST 304",
             "description": ""
         },
         {
             "id": "tfa",
             "short-title": "Things Fall Apart",
             "title": "Things Fall Apart Analysis",
-            "class": "HIST 315",
+            "course": "HIST 315",
             "description": ""
         },
         {
             "id": "bca",
             "short-title": "Belgian and Congolese Archives",
             "title": "Belgian and Congolese Archives Analysis",
-            "class": "HIST 389",
+            "course": "HIST 389",
             "description": ""
         }
     ],
@@ -115,14 +129,14 @@
             "id": "cci",
             "short-title": "\"Cattle, Crops, and Iron\"",
             "title": "Documentary Review of \"Cattle, Crops, and Iron\"",
-            "class": "HIST 200",
+            "course": "HIST 200",
             "description": ""
         },
         {
             "id": "wtw",
             "short-title": "\"When Two Worlds Collide\"",
             "title": "Documentary Review of \"When Two Worlds Collide\"",
-            "class": "INTD 397",
+            "course": "INTD 397",
             "description": ""
         }
     ]
