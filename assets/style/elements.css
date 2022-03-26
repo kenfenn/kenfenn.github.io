@@ -414,3 +414,11 @@ p.checked-content-title {
     background-color: var(--col-bg3);
     color: var(--col-text);
 }
+
+.course-name {
+    display: none;
+}
+
+.course-name-toggle:hover + .course-name, .course-name:hover {
+    display: inline;
+}
