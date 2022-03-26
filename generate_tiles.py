@@ -39,6 +39,7 @@ if __name__ == "__main__":
     with open("assets/media/manifest.json") as f:
         data = json.load(f)
 
+        courses = data["courses"]
         papers = data[category]
         for paper in papers:
             ret += f"""
@@ -53,7 +54,7 @@ if __name__ == "__main__":
                                 {paper['title']}
                             </p>
                             <div class="checked-content-desc">
-                                Class: {paper['class']}
+                                Class: <span class="course-name-toggle">{paper['course']}</span> <span class="course-name">{courses[paper['course']]}</span>
                                 <a href="/assets/media/{category}/{paper['id']}.pdf" target="_blank" class="button">View File</a>
                                 <p>
                                     {paper['description']}
