@@ -161,31 +161,34 @@ a.button-i i {
 }
 
 p.checked-content-title {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
     font-family: var(--sans-condensed);
 
-    line-height: 60px;
+    line-height: 63px;
 
     margin: 0;
-    padding: 0 60px;
+    padding: 15px 60px;
 }
 
 .checked-content-desc {
     overflow-y: auto;
-    height: calc(100% - 120px - 100px);
-    margin-bottom: 60px;
+    height: calc(100% - 50px - 93px);
 
-    padding: 50px;
+    padding: 0px 50px 50px 50px;
 
     font-size: 20px;
-
 }
 
 .checked-content-desc a {
     text-decoration: none;
     font-weight: bold;
     font-family: var(--sans);
+}
+
+.checked-content-desc p {
+    font-size: 24px;
+    line-height: 1.5em;
 }
 
 /*
