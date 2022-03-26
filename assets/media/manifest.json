@@ -111,6 +111,19 @@
         }
     ],
     "documentary-reviews": [
-
+        {
+            "id": "cci",
+            "short-title": "\"Cattle, Crops, and Iron\"",
+            "title": "Documentary Review of \"Cattle, Crops, and Iron\"",
+            "class": "HIST 200",
+            "description": ""
+        },
+        {
+            "id": "wtw",
+            "short-title": "\"When Two Worlds Collide\"",
+            "title": "Documentary Review of \"When Two Worlds Collide\"",
+            "class": "INTD 397",
+            "description": ""
+        }
     ]
 }
