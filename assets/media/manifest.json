@@ -23,7 +23,62 @@
         }
     ],
     "essays": [
-
+        {
+            "id": "mvw",
+            "short-title": "Medusa and Villianizing Women",
+            "title": "Medusa and Villianizing Women",
+            "class": "CLAS 201",
+            "description": ""
+        },
+        {
+            "id": "cdg",
+            "short-title": "Conflict and Development",
+            "title": "Is Conflict Always Bad? Is Development Always Good?",
+            "class": "INTD 397",
+            "description": ""
+        },
+        {
+            "id": "cwg",
+            "short-title": "Cold War as a Global Conflict",
+            "title": "Cold War as a Global Conflict",
+            "class": "HIST 304",
+            "description": ""
+        },
+        {
+            "id": "vnp",
+            "short-title": "Vietnam as a Proxy War",
+            "title": "Vietnam as a Proxy War",
+            "class": "HIST 304",
+            "description": ""
+        },
+        {
+            "id": "idr",
+            "short-title": "Dimensions of the Rwandan Genocide",
+            "title": "International Dimensions of the Rwandan Genocide",
+            "class": "POLI 352",
+            "description": ""
+        },
+        {
+            "id": "isl",
+            "short-title": "Islamist Militant Movements in sub-Saharan Africa",
+            "title": "Islamist Militant Movements in sub-Saharan Africa",
+            "class": "POLI 352",
+            "description": ""
+        },
+        {
+            "id": "pcb",
+            "short-title": "Protest Culture, Conservative Backlash",
+            "title": "Protest Culture, and Conservative Backlash",
+            "class": "HIST 392",
+            "description": ""
+        },
+        {
+            "id": "tta",
+            "short-title": "Trade and Technology in Ancient Africa",
+            "title": "Trade and Technology in Ancient Africa",
+            "class": "HIST 200",
+            "description": ""
+        }
     ],
     "primary-source-analysis": [
         {
@@ -50,7 +105,7 @@
         {
             "id": "bca",
             "short-title": "Belgian and Congolese Archives",
-            "title": "Belgian and Congolese Archive Analysis",
+            "title": "Belgian and Congolese Archives Analysis",
             "class": "HIST 389",
             "description": ""
         }
