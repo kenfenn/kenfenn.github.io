@@ -117,11 +117,11 @@ div.nav-brand-wrapper {
 }
 
 a.nav-brand {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 36px;
+    line-height: 36px;
     vertical-align: middle;
 
-    padding: calc((var(--nav-height) - 20px) / 2) 30px;
+    padding: calc((var(--nav-height) - 36px) / 2) 30px;
 
     max-height: var(--nav-height);
 
