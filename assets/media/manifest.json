@@ -1,13 +1,11 @@
 {
-    "essay": [
+    "research-papers": [
 
     ],
-    "research_paper": [
-        {
-            "title": "Divergening Outcomes",
-            "class": "POLI 227",
-            "description": "",
-            "filepath": "/assets/media/diverging_outcomes.pdf"
-        }
+    "essays": [
+
+    ],
+    "documentary-reviews": [
+
     ]
 }
