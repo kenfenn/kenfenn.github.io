@@ -26,7 +26,34 @@
 
     ],
     "primary-source-analysis": [
-
+        {
+            "id": "cml",
+            "short-title": "Cetshwayo Mpande's Letter",
+            "title": "Cetshwayo Mpande's Letter",
+            "class": "HIST 304",
+            "description": ""
+        },
+        {
+            "id": "nix",
+            "short-title": "Newspapers Covering Nixon in China",
+            "title": "President Nixon's Trip to China, and Detente",
+            "class": "HIST 304",
+            "description": ""
+        },
+        {
+            "id": "tfa",
+            "short-title": "Things Fall Apart",
+            "title": "Things Fall Apart Analysis",
+            "class": "HIST 315",
+            "description": ""
+        },
+        {
+            "id": "bca",
+            "short-title": "Belgian and Congolese Archives",
+            "title": "Belgian and Congolese Archive Analysis",
+            "class": "HIST 389",
+            "description": ""
+        }
     ],
     "documentary-reviews": [
 
