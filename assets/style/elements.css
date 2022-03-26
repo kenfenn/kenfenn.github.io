@@ -160,6 +160,34 @@ a.button-i i {
     background-color: black;
 }
 
+p.checked-content-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--sans-condensed);
+
+    line-height: 60px;
+
+    margin: 0;
+    padding: 0 60px;
+}
+
+.checked-content-desc {
+    overflow-y: auto;
+    height: calc(100% - 120px - 100px);
+    margin-bottom: 60px;
+
+    padding: 50px;
+
+    font-size: 20px;
+
+}
+
+.checked-content-desc a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--sans);
+}
+
 /*
 .flex-tile .hover-desc {
     position: absolute;
