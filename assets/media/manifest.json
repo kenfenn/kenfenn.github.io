@@ -1,6 +1,26 @@
 {
     "research-papers": [
-
+        {
+            "id": "gd",
+            "short-title": "Gendered Discrimination",
+            "title": "Gendered Discrimination Against Women and the Failings of Empowerment.",
+            "class": "INTD 200",
+            "description": ""
+        },
+        {
+            "id": "rcw",
+            "short-title": "Realism and Civil Wars in Africa",
+            "title": "Realism and Civil Wars in Africa",
+            "class": "POLI 352",
+            "description": ""
+        },
+        {
+            "id": "div",
+            "short-title": "Divergening Outcomes",
+            "title": "Divergening Outcomes",
+            "class": "POLI 227",
+            "description": ""
+        }
     ],
     "essays": [
 
